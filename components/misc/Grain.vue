@@ -1,6 +1,5 @@
 <template>
   <div class="background-noise" />
-  <!-- <div class="background-grain" /> -->
 </template>
 
 <style lang="scss">
@@ -20,21 +19,6 @@
       rgba(0, 0, 0, 0.26)
     );
   background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
-}
-
-.background-grain {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-
-  height: 100%;
-  width: 100%;
-
-  background-image: url("@/assets/images/grain/noise.gif");
-  background-size: 300px;
-  opacity: calc(10 / 500);
-  mix-blend-mode: multiply;
   pointer-events: none;
 }
 </style>
